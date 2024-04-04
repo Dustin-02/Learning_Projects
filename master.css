@@ -18,20 +18,19 @@
     max-width: calc(3 * 1.3rem); /* Adjust the linespace height (3 * font-size) */
 }
 
-  span:hover + img.show, 
-  h3.plusimg:hover + img.show, 
-  h4.plusimg:hover + img.show {
-      display: block;
-      position: absolute;
-      border: 1px solid #ccc; /* Light border */
-      background-color: white; /* White background */
-      padding: 5px; /* Adjust padding as needed */
-      z-index: 9999; /* Ensure it appears on top of other elements */
-      right: calc(100% + 10px); /* Position the image to the right of the cursor */
-      top: 50%; /* Center vertically */
-      transform: translateY(-50%); /* Adjust for vertical centering */
-  }
-
+span:hover + img.show, 
+h3.plusimg:hover + img.show, 
+h4.plusimg:hover + img.show {
+    display: block;
+    position: absolute;
+    border: 1px solid #ccc; /* Light border */
+    background-color: white; /* White background */
+    padding: 5px; /* Adjust padding as needed */
+    z-index: 9999; /* Ensure it appears on top of other elements */
+    right: calc(100% + 10px); /* Position the image to the right of the cursor */
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Adjust for vertical centering */
+}
 
   body {
     background-color: #e5e5e5; /* set the background color here */
