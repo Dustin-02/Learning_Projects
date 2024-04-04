@@ -12,12 +12,12 @@
     text-decoration: none; /* This means we do not want hyperlinks to be underlined */
   }
 
-  img {
+  img.show {
         display: none;
-    }
+  }
   
-  span:hover + img, 
-  .plusimg:hover + img {
+  span:hover + img.show, 
+  .plusimg:hover + img.show {
     display: block;
   }
 
