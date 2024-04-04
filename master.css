@@ -16,14 +16,11 @@
         display: none;
     }
   
-  span:hover + img {
-        display: block;
+  span:hover + img, 
+  h3.plusimg:hover + img,
+  h4.plusimg:hover + img {
+    display: block;
   }
-
-  p.plusimg:hover + img {
-        display: block;
-  }
-  
 
   body {
     background-color: #e5e5e5; /* set the background color here */
