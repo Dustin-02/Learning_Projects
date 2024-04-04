@@ -25,6 +25,14 @@
     background-color: white; /* White background */
     padding: 5px; /* Adjust padding as needed */
     z-index: 9999; /* Ensure it appears on top of other elements */
+    right: calc(100% + 10px); /* Position the image to the right of the cursor */
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Adjust for vertical centering */
+  }
+
+  img.show img {
+  max-height: calc(3 * 1.3rem); /* Adjust the linespace height (3 * font-size) */
+  max-width: calc(3 * 1.3rem); /* Adjust the linespace height (3 * font-size) */
   }
 
   body {
