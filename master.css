@@ -19,9 +19,9 @@ img.show {
 }
 
 /* Adjust the positioning of the images when hovered */
-span:hover ~ img.show,
-h3.plusimg:hover ~ img.show,
-h4.plusimg:hover ~ img.show {
+span:hover + img.show,
+h3.plusimg:hover + img.show,
+h4.plusimg:hover + img.show {
     display: block;
     position: absolute;
     border: 1px solid #ccc; /* Light border */
