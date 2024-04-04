@@ -17,8 +17,7 @@
     }
   
   span:hover + img, 
-  h3.plusimg:hover + img,
-  h4.plusimg:hover + img {
+  .plusimg:hover + img {
     display: block;
   }
 
