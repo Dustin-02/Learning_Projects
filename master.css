@@ -16,8 +16,9 @@
         display: none;
   }
   
-  span:hover + img.show, 
-  .plusimg:hover + img.show {
+  span:hover ~ img.show, 
+  h3.plusimg:hover ~ img.show, 
+  h4.plusimg:hover ~ img.show, {
     display: block;
   }
 
