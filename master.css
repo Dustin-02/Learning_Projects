@@ -18,9 +18,9 @@
     max-width: calc(3 * 1.3rem); /* Adjust the linespace height (3 * font-size) */
 }
 
-span:hover ~ img.show, 
-h3.plusimg:hover ~ img.show, 
-h4.plusimg:hover ~ img.show {
+span:hover + img.show,
+h3.plusimg:hover + img.show,
+h4.plusimg:hover + img.show {
     display: block;
     position: absolute;
     border: 1px solid #ccc; /* Light border */
