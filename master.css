@@ -20,6 +20,11 @@
   h3.plusimg:hover ~ img.show, 
   h4.plusimg:hover ~ img.show, {
     display: block;
+    position: absolute;
+    border: 1px solid #ccc; /* Light border */  
+    background-color: white; /* White background */
+    padding: 5px; /* Adjust padding as needed */
+    z-index: 9999; /* Ensure it appears on top of other elements */
   }
 
   body {
