@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <title>Survey Form</title>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <link rel='stylesheet' href='styles.css'>
+</head>
+<body>
+  <
+  <h1 id='title'>freeCodeCamp Survey Form</h1>
+  <p id='description'>Thank you for taking the time to help us improve the platform</p>
+  <form id='survey-form'>
+    <fieldset>
+      <label id='name-label' for='name'>Name<input type='text' id='name' placeholder='Enter your name' name='name' required></label>
+      <label id='email-label' for='email'>Email<input type='email' id='email' name='email' placeholder='Enter your Email' required></label>
+      <label id='number-label' for='number'>Age (optional)<input type='number' id='number' name='age' placeholder='Age' min='10' max='100'></label>
+      <label for='dropdown'>Which option best describes your current role?
+        <select id='dropdown' name='current-role'>
+          <option value=''>Select current role</option>
+          <option value=''>Undergraduate Students</option>
+          <option value='1'>Graduate Students</option>
+          <option value='2'>Fulltime Job</option>
+          <option value='3'>Fulltime Learner</option>
+          <option value='4'>Others</option>
+        </select>
+      </label>
+      <label class='question-nationality'>What's your nationality?</label>
+        <label for='nationality'><input id='nationality' type='radio' name='nationality' value='VN' class='inline'>Vietnam</label>
+        <label for='nationality'><input id='nationality' type='radio' name='nationality' value='TW' class='inline'>Taiwan</label>
+        <label for='nationality'><input id='nationality' type='radio' name='nationality' value='Others' class='inline'>Others</label>
+    <label for='city/province' class='city-question'>What's your City/Province?</label>
+    <label for='city/province'><input type='checkbox' id='city/province' name='city/province' value='HCM' class='inline'>Ho Chi Minh City</label>
+      <label for='city/province'><input type='checkbox' id='city/province' name='city/province' value='HN' class='inline'>Ha Noi Capital</label>
+      <label for='city/province'><input type='checkbox' id='city/province' name='city/province' value='PY' class='inline'>Phu Yen Province</label>
+      <label for='city/province'><input type='checkbox' id='city/province' name='city/province' value='Others' class='inline'>Others</label>
+    <label for='feedback'>Please kindly leave your suggestions
+      <textarea id='feedback' name='feedback' row='10' cols='30' placeholder='Enter your suggestions here...'></textarea>
+    </label>
+  </fieldset>  
+  <input type='submit' id='submit' name='submit'>
+  </form> 
+</body>
+</html>
