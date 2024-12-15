@@ -1,3 +1,5 @@
-Assignment C++: Simulation of two Sherlock Holmes scenes "Study in Pink" using C++
-data-vis-hw: Analyze and visualize using python notebook
-bioimage-hw: Code python assignments (binary search)
+# Learning projects
+## Include my webpage, personal practices and school assignments
+Assignment C++: Simulation of two Sherlock Holmes scenes "Study in Pink" using C++ (Programming)
+data-vis-hw: Visualize using notebook (Data Visualization)
+bioimage-hw: Python assignments (Bioimage Programming)
